@@ -23,6 +23,15 @@ use App\Http\Controllers\Admin\TagController as AdminTagController;
 |
 */
 
+Route::get('/test-json', function (){
+    
+    return response()->json([
+        'fist_name' => 'alessio',
+        'last_name' => 'palmieri',
+    ]);
+});
+
+
 Route::get('/', [MainController::class, 'index'])->name('home');
 
 // Definisco la rotta per mostrare i type ai Guest
