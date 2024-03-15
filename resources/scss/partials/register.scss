@@ -1,0 +1,58 @@
+#register{
+
+    padding-top: 40px;
+    height: 100vh;
+    .container{
+        // @if ($errors->any())
+        //     <div class="alert alert-danger">
+        //         <ul>
+        //             @foreach ($errors->all() as $error)
+        //             <li>
+        //                 {{ $error }}
+        //             </li>
+        //             @endforeach
+        //         </ul>
+        //     </div>
+        // @endif
+        form{
+            div{
+
+                display: flex;
+                justify-content: start;
+                border: 1px solid rgba(205, 205, 205, 0.508);
+                padding: 20px;
+                flex-direction: column;
+                label{
+                    
+                    display: block;
+                    font-weight: bolder;
+                    font-size: 1.3rem;
+                }
+                input{
+                    width: 100%;
+                    background-color: transparent;
+                    border: 2px solid black;
+                    padding: 7px 20px;
+                    margin-bottom: 10px;
+                }
+            }
+    
+            div{
+                a{
+                    margin-bottom: 8px;
+                    color: black;
+                }
+    
+                button{
+                    
+                    background-color: black;
+                    color: white;
+                    font-weight: 600;
+                    font-size: 0.9rem;
+                    padding: 10px 20px;
+                    border: none;
+                }
+            }
+        }
+    }
+}

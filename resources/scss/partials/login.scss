@@ -1,0 +1,82 @@
+#log-in{
+    // @if ($errors->any())
+    //     <div class="alert alert-danger">
+    //         <ul>
+    //             @foreach ($errors->all() as $error)
+    //             <li>
+    //                 {{ $error }}
+    //             </li>
+    //             @endforeach
+    //         </ul>
+    //     </div>
+    // @endif
+    padding-top: 40px;
+    height: 100vh;
+    .container{
+
+        form{
+            
+            div{
+                display: flex;
+                justify-content: start;
+                border: 1px solid rgba(205, 205, 205, 0.508);
+                padding: 20px;
+                flex-direction: column;
+
+                label{
+                    
+                    display: block;
+                    font-weight: bolder;
+                    font-size: 1.3rem;
+                }
+    
+                input{
+                    width: 100%;
+                    background-color: transparent;
+                    border: 2px solid black;
+                    padding: 7px 20px;
+                    margin-bottom: 10px;
+                }
+
+                .remember{
+
+                    border: none;
+                    label{
+        
+                        span{
+                            
+                            font-size: medium;
+                            text-transform: none;
+                            font-weight: lighter;
+                            color: black;
+                            margin-right: 8px;
+                            display: block;
+                        }
+                    }
+                    input{ 
+                        
+                        width: 20px;
+                    }
+                }
+            }
+    
+    
+            div{
+                a{
+                    margin-bottom: 8px;
+                    color: #001f3f;
+                }
+    
+                button{
+                    background-color: black;
+                    color: white;
+                    font-weight: 600;
+                    font-size: 0.9rem;
+                    padding: 10px 20px;
+                    border: none;
+                }
+            }
+    
+        }
+    }
+}

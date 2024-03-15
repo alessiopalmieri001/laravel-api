@@ -1,0 +1,22 @@
+#dashboard{
+
+    padding-top: 80px;
+    height: 100vh;
+    .row{
+        .col-12{
+            
+            h1{
+                font-size: 3rem;
+                color: black;
+                margin: 0;
+                font-weight: 700;
+                span{
+                    color: black;
+                    padding: 9px 16px;
+                    border: 4px solid black;
+                }
+            }
+            
+        }
+    }
+}

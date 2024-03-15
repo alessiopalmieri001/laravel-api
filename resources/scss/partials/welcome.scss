@@ -1,0 +1,35 @@
+#welcome{
+    height: 100vh;
+    padding-top: 80px;
+    .container{
+
+        h1{
+            font-size: 3rem;
+            font-weight: 800;
+            color: black;
+            margin-bottom: 20px;
+        }
+
+        .frame{
+
+            .row{
+                min-height: 500px;
+                .col-4, .col-8{
+                    border: 2px solid black;
+                }
+                .col-4{
+                    .row{
+                        .col-12{
+                            height: 250px;
+                            border-bottom: 2px solid black;
+                        }
+                        .col-6{
+                            border-right: 2px solid black;
+                            height: 250px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
